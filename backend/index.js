@@ -12,7 +12,7 @@ app.use(
 app.use(bodyParser.json());
 // Connect to mongo
 mongoose.connect(
-  "mongodb+srv://lovedayMIkku:lovedayKaLeader@toxicdb.2muwyyb.mongodb.net/test",
+  mongouri,
   { useNewUrlParser: true }
 );
 
