@@ -91,10 +91,10 @@ class _CameraScreenState extends State<CameraScreen> {
         // logs.value = logs.value + ["pothole added"];
         // api call with debounce timer
         debounceTimer.cancel();
-        debounceTimer = Timer(const Duration(seconds: 5), () {
-          // PotholeServices()
-          //     .addPothole(position: _position!)
-          //     .then((value) => logs.value = (logs.value + [value]));
+        debounceTimer = Timer(const Duration(seconds: 5), () async{
+          await PotholeServices()
+               .addPothole(position: _position!)
+               .then((value) => logs.value = (logs.value + [value]));
         });
       }
       lastRecognition = currentRecognition;
