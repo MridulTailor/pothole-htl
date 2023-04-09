@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/mridultailor/Developer/SSIP_TM001451/pothole-detection/build/camera_android/intermediates/res/merged/debug/layout/custom_dialog.xml",
+        "source": "/Users/mridultailor/.gradle/caches/transforms-2/files-2.1/875654acb8fd75501dc33efa1bebb479/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/mridultailor/Developer/SSIP_TM001451/pothole-detection/build/camera_android/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/mridultailor/.gradle/caches/transforms-2/files-2.1/875654acb8fd75501dc33efa1bebb479/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/mridultailor/Developer/SSIP_TM001451/pothole-detection/build/camera_android/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/mridultailor/.gradle/caches/transforms-2/files-2.1/875654acb8fd75501dc33efa1bebb479/core-1.6.0/res/layout/notification_template_part_time.xml"
+    }
+]
